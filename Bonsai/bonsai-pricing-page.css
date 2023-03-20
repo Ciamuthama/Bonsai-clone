@@ -1521,7 +1521,7 @@ footer {
 @media only screen and (max-width: 767px) {
 
     .container {
-        padding: 0px;
+        padding-left: 5px;
     }
 
     .cards {

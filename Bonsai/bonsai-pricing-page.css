@@ -1088,10 +1088,7 @@ dl.faq button[aria-expanded="true"]::before {
 
 .margue {
     margin-top: 80px;
-
-
 }
-
 
 .margue-wrapper {
     display: block;
@@ -1534,6 +1531,19 @@ footer {
         padding-right: 20px;
         margin-right: 0px;
     }
+      .mobile-navigation {
+        display: block;
+        position: fixed;
+        top: 0%;
+        background-color: white;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-top: -1px;
+        z-index: 200;
+        border-top: 1px solid #65816de1;
+        box-shadow: var(--shadow);
+    }
 
     .mobile-navigation {
         display: block;
@@ -1809,7 +1819,11 @@ footer {
         display: none;
     }
 
+<<<<<<< HEAD
     .bottomf{
         flex-direction: column;
     }
 }
+=======
+}
+>>>>>>> 897142e5c71fb27e77880ee6e34e1362e1271794

@@ -1597,6 +1597,10 @@ footer {
         text-align: center;
     }
 
+    .h2>h2{
+    font-size:23px;
+    }
+    
     .cards2 {
         padding-right: 20px;
         padding-left: 20px;

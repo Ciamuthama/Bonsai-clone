@@ -1095,8 +1095,8 @@ dl.faq button[aria-expanded="true"]::before {
 
 .margue-wrapper {
     display: block;
-    width: 120%;
-    margin-left: -2%;
+    width: max-content;
+    margin-left: -9%;
 }
 
 .horizontal {
@@ -1518,21 +1518,45 @@ footer {
     row-gap: 1rem;
 }
 
-
+.mobile-navigation{
+    position: sticky;
+}
 
 @media only screen and (max-width: 767px) {
 
+    .container{
+        padding: 0px;
+    }
+    
     .cards {
         grid-template-columns: 1fr;
         padding-left: 20px;
         padding-right: 20px;
+        margin-right: 0px;
     }
 
+    .mobile-navigation {
+        display: block;
+        top: 0%;
+        background-color: white;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-top: -1px;
+        z-index: 200;
+        box-shadow: var(--shadow);
+    }
+
+    .position-relative h4 {
+        margin-bottom: 20px;
+        line-height: 115%;
+        text-align: left;
+        width: auto;
+    }
     .square,
     .square1,
     .square2 {
         min-height: 291px;
-        padding: 28px;
         margin-bottom: 30px;
         min-width: 250px;
     }
@@ -1580,7 +1604,6 @@ footer {
 
     .margue-wrapper {
         overflow: scroll;
-        width: 100%;
         margin-right: 0;
         margin-left: 1%;
     }
@@ -1600,7 +1623,7 @@ footer {
     }
 
     .item-trigger {
-        width: 200%;
+        width: 180%;
     }
 
     #faq {
@@ -1648,7 +1671,6 @@ footer {
 
     .mobile-navigation {
         display: block;
-        position: fixed;
         top: 0%;
         background-color: white;
         width: 100%;
@@ -1656,13 +1678,12 @@ footer {
         right: 0;
         margin-top: -1px;
         z-index: 200;
-        border-top: 1px solid #65816de1;
         box-shadow: var(--shadow);
     }
 
     .mobile-container {
         overflow: scroll;
-        height: 80vh;
+        /* height: 80vh; */
         margin-top: 0;
         padding: 20px 40px;
         background-color: #fff;
@@ -1679,6 +1700,11 @@ footer {
         justify-content: center;
         row-gap: 50px;
         width: 100%;
+        margin-right: 0px;
+    }
+
+    .image-absolute{
+        display: none;
     }
 
     .starter,
@@ -1705,14 +1731,14 @@ footer {
         align-items: center;
     }
     .cards2 {
-        padding-right: 20px;
-        padding-left: 20px;
-        overflow: scroll;
-        width: 100%;
-        margin:0px 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: scroll;
+    width: 100%;
+    margin-left: 0px;
     }
 
-    .image-absolute_12{
+    /* .image-absolute_12{
         position: absolute;
         left: 445px;
         right: 0;
@@ -1720,7 +1746,7 @@ footer {
         z-index: 0;
         width: 250px;
         transform: rotate(-3deg)
-    }
+    } */
 
     .banner{
         display: block;
@@ -1783,4 +1809,7 @@ footer {
         display: none;
     }
 
+    .bottomf{
+        flex-direction: column;
+    }
 }

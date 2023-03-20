@@ -1527,6 +1527,19 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+      .mobile-navigation {
+        display: block;
+        position: fixed;
+        top: 0%;
+        background-color: white;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-top: -1px;
+        z-index: 200;
+        border-top: 1px solid #65816de1;
+        box-shadow: var(--shadow);
+    }
 
     .square,
     .square1,

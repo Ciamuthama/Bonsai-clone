@@ -1672,6 +1672,10 @@ footer {
     .rating img {
         width: 80%;
     }
+
+   .bottomf{
+         flex-direction:column;
+    }
 }
 
 @media only screen and (max-width: 991px) {

@@ -1,25 +1,4 @@
-//didn't work//
-// const radio = document.querySelectorAll("input[type=radio]");
-// const prices = document.querySelectorAll("#price1-hide, #price2-hide");
-// console.log(radio);
 
-// for (let i = 0; i < radio.length; i++) {
-//   radio[i].addEventListener('change', () => {
-//     if (radio[i].id=== 'monthly') {
-//       for (let j = 0; j <prices.length; j++) {
-//         prices[j].style.display='block'
-//       }
-//     } else {
-//       for (let i = 0; i <prices.length; i++) {
-//         prices[j].style.display = 'none'
-
-//       }
-
-//     }
-//   })
-// }
-
-//working
 const monthlyPrice = document.querySelector("#price1-hide");
 const yearlyPrice = document.querySelector("#price2-hide");
 const monthlyPrice2 = document.querySelector(".price1-hide1");
@@ -106,42 +85,6 @@ yearlyRadio.addEventListener("change", () => {
 	offer1.style.display = "block";
 });
 
-// const cards = document.querySelector(".cards");
-// const switchInputs = document.querySelectorAll(".switch-wrapper input");
-// const prices = cards.querySelectorAll(".price2-hide");
-
-// const toggleClass = "hide";
-// for (const switchInput of switchInputs) {
-//   switchInput.addEventListener("input", function () {
-//     for (const price of prices) {
-//       if (!price.classList.contains(switchInput.id)) {
-//         price.classList.add(toggleClass);
-//       } else {
-//         price.classList.remove(toggleClass);
-//       }
-//     }
-//   });
-// }
-
-// const cards = document.querySelector(".cards");
-// const switchInputs = document.querySelectorAll(".switch-wrapper input");
-// const prices = document.querySelectorAll(".price2-hide");
-
-// const toggleClass = "hide";
-// for (const switchInput of switchInputs) {
-// switchInput.addEventListener("input", function () {
-//     for (const price of prices) {
-//      price.classList.add(toggleClass);
-//   }
-//   const activePrices = cards.querySelectorAll(
-//     `.price2-hide.${switchInput.id}`
-
-//     );
-//      for (const Price of activePrices) {
-//        Price.classList.remove(toggleClass);
-//     }
-//     console.log(switchInput);
-//    });
 
 function Product() {
 	document.getElementsByClassName("mobile").classList.toggle("hide");

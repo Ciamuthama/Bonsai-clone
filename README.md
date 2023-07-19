@@ -17,6 +17,11 @@ This project is implemented using the following technologies:
 - CSS
 - JavaScript
 
+## Prerequisites
+Ensure you have the following software installed on your system:
+
+Node.js - Node.js is used for running the development environment and server.
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -35,18 +40,10 @@ After cloning the repository and navigating to the project directory, open the i
 
 Feel free to customize and modify the code to suit your needs. You can also contribute to this project by following the guidelines in the Contributing section.
 
-## Contributing
+## 🧗 Challenges Faced
+Creating this project presented several challenges, especially for a first-time endeavor with Toggle Switches, Accordions, and Dropdowns, as well as implementing JavaScript interactivity. The pricing layout required careful structuring, and making the page responsive was also a significant hurdle. Thankfully, I was able to overcome these challenges with the support of online resources and problem-solving skills.
 
-🤝 Contributions are welcome! If you find any bugs or want to improve the project, follow these steps:
+## 🙏 Acknowledgments
+I want to express my gratitude to the developers who have shared their knowledge and expertise online. Without their valuable resources, completing this project would not have been possible.
 
-Fork the project repository.
-
-Create a new branch: git checkout -b my-branch-name.
-
-Make your modifications and commit them: git commit -m 'Add some feature'.
-
-Push to the branch: git push origin my-branch-name.
-
-Submit a pull request.
-
-Please ensure your pull request follows the project's coding conventions and includes relevant documentation or tests.
+Feel free to explore the code, make improvements, and use this project to enhance your skills in web development. If you encounter any issues or have suggestions, please don't hesitate to raise an issue or submit a pull request. Happy coding! 😊
